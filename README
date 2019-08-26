@@ -1,0 +1,27 @@
+Description: A Discord Bot that runs a battle royale style game with randomly generated events and actions based on limited player input
+
+There is no user interface, to interface with the bot, you must be on a discord server with the bot running.
+here is an invite link to a server with the bot added: https://discord.gg/3Bg3ES5
+In order to make the bot go online you must run the program on your computer
+Once the bot is online(it will send a message to notify you of this) you can send it commands in the form of !command, where command is replaced with your command
+!help gives a list of commands, their descriptions, and info on how to play the game
+before starting the game, type !initiate
+and then each player should type !addme
+each player will be given their own channel in which to send commands
+send !startgame once all players have send !addme
+each player has 3 actions, commands that take an action are denoted with an asterisk(*) in the !help message
+after an hour, the bot will generate events for every player and announce them
+once this happens each player's 3 actions are restored
+this continues until there are either 1 or 0 players remaining
+
+bugs:
+-certain typos in the command names mess things up a lot
+-issues with the !map command
+
+Libraries:
+-discordpy(https://discordpy.readthedocs.io/en/latest/intro.html)
+-Pillow
+-Numpy
+-random
+-asyncio
+-enum
