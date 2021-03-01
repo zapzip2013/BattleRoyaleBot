@@ -8,7 +8,7 @@ import random
 
 print("Current DiscordPy version: " + discord.__version__)
 
-token = "NTgwODEwNjY4NjM5Mzg3NjU4.XQquxQ.uVKh5YQvDGiSFROAoQTWY7ZA5j0"
+token = OMITTED
 
 client = discord.Client()  # starts the discord client.
 
